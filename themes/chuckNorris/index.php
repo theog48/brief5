@@ -14,7 +14,7 @@
     <?php get_header(); ?>
 
     <main class="flex-grow-1">
-        <div class="container text-center py-5">
+        <div class="cta-section text-center py-5">
             <h1>Chuck Energy - La Boisson des Légendes</h1>
             <div class="fact-card mx-auto p-4 my-4 shadow-sm rounded">
                 <p class="fs-3 fw-semibold text-dark"><?php echo do_shortcode('[chuck_norris_fact]'); ?></p>
@@ -47,7 +47,7 @@
             </section>
         </div>
 
-    </main> <!-- ✅ Fermeture correcte de <main> avant le footer -->
+    </main>-
 
     <?php get_footer(); ?>
 </body>

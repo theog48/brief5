@@ -8,11 +8,6 @@
                 <i class="fab fa-facebook-f"></i>
             </a>
 
-            <!-- Google -->
-            <a class="btn btn-lg social-btn m-1" href="https://www.google.com/" target="_blank" role="button">
-                <i class="fab fa-google"></i>
-            </a>
-
             <!-- Instagram -->
             <a class="btn btn-lg social-btn m-1" href="https://www.instagram.com/" target="_blank" role="button">
                 <i class="fab fa-instagram"></i>

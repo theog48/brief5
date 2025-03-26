@@ -1,0 +1,112 @@
+/*
+Theme Name: Theme Chuck Norris 
+Theme URI: https://www.tutowp.fr/tutowp
+Author: Team greta_3
+Author URI: https://www.tutowp.fr/tutowp
+Description: Thème personnalisé Chuck Norris
+Version: 1.0
+*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Utilise min-height: 100vh pour assurer un bon placement du footer */
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    flex-grow: 1;
+    /* Permet à main de prendre l'espace restant */
+}
+
+/* Custom Card Styles */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hero {
+    text-align: center;
+    color: rgb(5, 5, 5);
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.cta {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.cta-section {
+    background-color: #7C1618;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.cta-button {
+    background-color: white;
+    color: #7C1618;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta:hover {
+    background: darkred;
+    color: white;
+}
+
+
+footer {
+    background-color: #7C1618;
+    padding: 20px;
+    margin-top: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.social-btn {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: transform 0.3s, background-color 0.3s;
+    border-radius: 50%;
+}
+
+.social-btn:hover {
+    background-color: pink !important;
+    color: #7C1618 !important;
+    transform: scale(1.1);
+
+}

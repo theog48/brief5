@@ -57,7 +57,7 @@
             </div>
             <!-- 5 slide -->
             <div class="carousel-item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chuckdrink.png" class="d-block w-100" alt="Chuck Norris tenant une bouteille">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chuckblackwhite.png" class="d-block w-100" alt="Bouteille Chuck Norris">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Chuck Norris - La Légende</h5>
                     <p>Découvrez la puissance de Chuck Energy, la boisson des champions !</p>

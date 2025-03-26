@@ -14,10 +14,12 @@
     <?php get_header(); ?>
 
     <main class="flex-grow-1">
-        <div class="cta-section text-center py-5">
-            <h1>Chuck Energy - La Boisson des Légendes</h1>
-            <div class="fact-card mx-auto p-4 my-4 shadow-sm rounded">
-                <p class="fs-3 fw-semibold text-dark"><?php echo do_shortcode('[chuck_norris_fact]'); ?></p>
+        <div class="hero">
+            <div class="cta-section text-center py-5">
+                <h1>Chuck Energy - La Boisson des Légendes</h1>
+                <div class="fact-card mx-auto p-4 my-4 shadow-sm rounded">
+                    <p class="fs-3 fw-semibold text-dark"><?php echo do_shortcode('[chuck_norris_fact]'); ?></p>
+                </div>
             </div>
         </div>
 
@@ -32,11 +34,6 @@
             </section>
         </div>
 
-        <!-- Inclusion des cartes -->
-        <section>
-            <?php get_template_part('cards'); ?>
-        </section>
-
         <div class="hero">
             <section class="cta-section mt-4">
                 <div class="container d-flex flex-column justify-content-center align-items-center text-center" style="min-height: 150px;">
@@ -46,6 +43,11 @@
                 </div>
             </section>
         </div>
+
+        <!-- Inclusion des cartes -->
+        <section>
+            <?php get_template_part('cards'); ?>
+        </section>
 
     </main>
     <footer>

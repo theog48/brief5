@@ -47,9 +47,9 @@
             </section>
         </div>
 
-    </main>-
-
-    <?php get_footer(); ?>
+    </main>
+    <footer>
+        <?php get_footer(); ?>
+    </footer>
 </body>
-
 </html>

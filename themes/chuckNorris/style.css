@@ -37,6 +37,7 @@ main {
 
 .hero {
     text-align: center;
+    background-color: #7C1618;
     color: rgb(5, 5, 5);
     padding: 50px;
     max-width: 800px;
@@ -109,4 +110,28 @@ footer {
     color: #7C1618 !important;
     transform: scale(1.1);
 
+}
+
+.carousel-caption {
+    bottom: 10px;
+    padding: 5px 10px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.carousel-caption p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+.carousel-item img {
+    max-height: 450px;
+    object-fit: cover;
 }

@@ -22,7 +22,7 @@
             </div>
         </div>
 
-        <div class="container  mt-4 px-3">
+        <div class="container">
             <div class="row g-3">
                 <div class="col-md-6">
                     <section class="cta-section p-3 text-center shadow-sm rounded" style="min-height: 120px;">

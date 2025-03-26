@@ -14,7 +14,7 @@
     <?php get_header(); ?>
 
     <main class="flex-grow-1">
-        <div class="hero">
+        <div class="cta-section">
             <div class="cta-section text-center py-5">
                 <h1>Chuck Energy - La Boisson des Légendes</h1>
                 <div class="fact-card mx-auto p-4 my-4 shadow-sm rounded">

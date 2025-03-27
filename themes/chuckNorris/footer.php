@@ -4,28 +4,23 @@
         <!-- Social Media Buttons -->
         <section class="mb-3 d-flex justify-content-center flex-wrap">
             <!-- Facebook -->
-            <a class="btn btn-lg social-btn m-1" href="https://www.facebook.com/" target="_blank" role="button" style="background-color: #3b5998; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
-                <i class="fab fa-facebook-f" style="color: white;"></i>
-            </a>
-
-            <!-- Google -->
-            <a class="btn btn-lg social-btn m-1" href="https://www.google.com/" target="_blank" role="button" style="background-color: #db4437; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
-                <i class="fab fa-google" style="color: white;"></i>
+            <a class="btn btn-lg social-btn m-1 rounded-circle d-flex align-items-center justify-content-center" href="https://www.facebook.com/" target="_blank" role="button" style="background-color: #3b5998; width: 50px; height: 50px;">
+                <i class="fab fa-facebook-f text-white"></i>
             </a>
 
             <!-- Instagram -->
-            <a class="btn btn-lg social-btn m-1" href="https://www.instagram.com/" target="_blank" role="button" style="background-color: #e4405f; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
-                <i class="fab fa-instagram" style="color: white;"></i>
+            <a class="btn btn-lg social-btn m-1 rounded-circle d-flex align-items-center justify-content-center" href="https://www.instagram.com/" target="_blank" role="button" style="background-color: #e4405f; width: 50px; height: 50px;">
+                <i class="fab fa-instagram text-white"></i>
             </a>
 
             <!-- LinkedIn -->
-            <a class="btn btn-lg social-btn m-1" href="https://www.linkedin.com/" target="_blank" role="button" style="background-color: #0077b5; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
-                <i class="fab fa-linkedin" style="color: white;"></i>
+            <a class="btn btn-lg social-btn m-1 rounded-circle d-flex align-items-center justify-content-center" href="https://www.linkedin.com/" target="_blank" role="button" style="background-color: #0077b5; width: 50px; height: 50px;">
+                <i class="fab fa-linkedin text-white"></i>
             </a>
 
             <!-- GitHub -->
-            <a class="btn btn-lg social-btn m-1" href="https://github.com/" target="_blank" role="button" style="background-color: #333; color: white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
-                <i class="fab fa-github" style="color: white;"></i>
+            <a class="btn btn-lg social-btn m-1 rounded-circle d-flex align-items-center justify-content-center" href="https://github.com/" target="_blank" role="button" style="background-color: #333; width: 50px; height: 50px;">
+                <i class="fab fa-github text-white"></i>
             </a>
         </section>
 

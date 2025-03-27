@@ -13,7 +13,7 @@
 
     <?php get_header(); ?>
 
-    <main class="flex-grow-1">
+    <main>
         <div class="hero">
             <div class="cta-section text-center py-5">
                 <h1>Chuck Energy - La Boisson des Légendes</h1>

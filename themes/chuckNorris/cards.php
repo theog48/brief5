@@ -48,6 +48,7 @@
                                 <p><strong>Stock disponible:</strong> <?php echo esc_html(get_field('quantite_en_stock')); ?></p>
                             </div>
                             <div class="modal-footer">
+                                <a href="<?php echo get_permalink(106); ?>" class="btn btn-warning btn-md">Commander<i class="fas fa-shopping-cart ms-2"></i></a>
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                             </div>
                         </div>

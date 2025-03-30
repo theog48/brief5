@@ -207,7 +207,7 @@ get_header();
         <!-- Submit Button -->
         <div class="row">
             <div class="col-md-12">
-                <button type="submit" class="btn btn-danger mb-3">⚡ Commander</button>
+                <button type="submit" class="btn btn-warning btn-md">Commander <i class="fas fa-shopping-cart ms-2"></i></button>
             </div>
         </div>
     </form>

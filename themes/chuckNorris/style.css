@@ -35,9 +35,38 @@ main {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* Fond gris sur toute la largeur */
+.navbar {
+    padding: 15px 0;
+    /* Espacement vertical */
+    width: 100%;
+}
+
+/* Alignement et espace des éléments du menu */
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style des liens du menu */
+.navbar-nav .menu-item a {
+    text-decoration: none;
+    color: white;
+    /* Texte blanc */
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Effet au survol */
+.navbar-nav .menu-item a:hover {
+    color: #ff6600;
+    /* Orange */
+}
+
 .hero {
     text-align: center;
-    background-color: #ffffff;
     color: rgb(5, 5, 5);
     padding: 50px;
     max-width: 800px;
@@ -49,15 +78,14 @@ main {
     border-radius: 10px;
 }
 
-.cta {
+/* .cta {
     display: inline-block;
     background: red;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
     font-size: 20px;
-}
-
+} */
 
 .cta-section {
     background-color: #7C1618;
@@ -85,7 +113,7 @@ main {
 footer {
     background-color: #7C1618;
     padding: 20px;
-    margin-top: auto;
+    /* margin-top: auto; */
     text-align: center;
     color: white;
     position: relative;
@@ -112,26 +140,55 @@ footer {
 
 }
 
+/* Réduction de la hauteur du header */
 .carousel-caption {
     bottom: 10px;
+    /* Ajuste la position verticale des légendes */
     padding: 5px 10px;
+    /* Réduit l'espace interne */
 }
 
 .carousel-caption h5 {
     font-size: 1.2rem;
+    /* Réduit la taille du titre */
     margin-bottom: 5px;
+    /* Réduit l'espacement sous le titre */
 }
 
 .carousel-caption p {
     font-size: 0.9rem;
+    /* Réduit la taille du texte */
     margin-bottom: 0;
+    /* Supprime l'espace sous le texte */
 }
 
-.carousel-control-prev, .carousel-control-next {
+/* Réduction des contrôles du carrousel */
+.carousel-control-prev,
+.carousel-control-next {
     width: 5%;
+    /* Diminue la largeur des boutons */
 }
 
+/* Ajustement de la hauteur des images */
 .carousel-item img {
     max-height: 450px;
+    /* Ajuste la hauteur max des images */
     object-fit: cover;
+    /* Recadre les images si nécessaire */
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.drink-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto 10px;
+    object-fit: contain;
 }

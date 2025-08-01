@@ -26,13 +26,16 @@
 
         <!-- Copyright Section -->
         <div>
+<<<<<<< HEAD
             <p class="mb-0">&copy; <?php echo date('Y'); ?> Chuck Energy. Aucun repos pour les braves. <a href="https://greta.3.lopia.fr/politique-de-confidentialite/" style="color: #f8f9fa;">Politique de Confidentialité</a></p>
+=======
+            <p class="mb-0">&copy; <?php echo date('Y'); ?> Chuck Energy. Aucun repos pour les braves. </p>
+            <a href="https://greta.3.lopia.fr/politique-de-confidentialite/" style="color: #f8f9fa;">Politique de Confidentialité</a><br>
+            <a href="https://greta.3.lopia.fr/mention-legales" style="color: #f8f9fa;">Mention Légales</a>
+>>>>>>> 2860ef3965f76739bc1c335cabf7f1659bb5aeda
         </div>
     </div>
 </footer>
-
 <?php wp_footer(); ?>
-
 </body>
-
 </html>
